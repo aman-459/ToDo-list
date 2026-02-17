@@ -1,0 +1,42 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-heading {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 20px; 
+    justify-content: center;
+    margin: 20px;
+}
+
+.container input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-btn {
+    background-color: #28a745;
+}
+
+#delete-btn {
+    background-color: #9c3640;
+}
